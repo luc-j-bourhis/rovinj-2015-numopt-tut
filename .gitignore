@@ -1,0 +1,13 @@
+*.pyc
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.pyg
+*.snm
+*.toc
+*.vrb
+*.pdf
+

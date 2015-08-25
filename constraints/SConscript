@@ -1,0 +1,4 @@
+Import("env_rovinj_numopt_tut_ext")
+env = env_rovinj_numopt_tut_ext.Clone()
+env.SharedLibrary(target='#lib/rovinj_numopt_tut_constraints_ext',
+                  source=["constraints_ext.cpp"])
